@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{box-sizing: border-box; padding:0; margin: 0;}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: auto;
+}
+
+header nav{
+    height: 100%;
+    background-color: #1c5560;
+    height: 5.5rem;
+    border: 0.2rem solid #01404d;
+
+}
+
+header nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all 1.2s;
+    font-size: 1.5rem;
+    &:hover{
+        font-size: 1.6rem;
+        color:#79ae92 ;
+        font-weight: 900;
+        text-shadow:0.13rem 0.13rem rgba(23, 11, 11, 0.676);
+    }&:active{
+        font-size:1.4rem;
+        border-top:0.1rem solid #79ae92 ;
+        border-bottom:0.1rem solid #79ae92 ;
+    }
+}
+
+
+form {
+    color: rgba(255, 255, 255, 0.68);
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+    background-color: #01404d;
+    box-shadow:1rem 1rem 1.2rem;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    align-items: center;    
+    font-size: 1.5rem;
+}
+#div_formularios{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+
+}
+.mensaje_input{
+    margin:2rem auto 2rem;
+    color: whitesmoke;
+
+}
+label {
+    margin-bottom:2rem;
+    font-weight: bold;
+    text-decoration:underline;}
+
+input {
+    padding:1rem 4rem;
+    margin-bottom: 2rem;
+    border: 0.1rem solid #877b7b8c;
+    border-radius: 1.2rem;
+    box-shadow: 0.4rem 0.3rem 0.6rem #ffffff8c;
+}
+
+#contactos h3{
+    text-align: center;
+    font-weight: 650;
+}
+#navContactos p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 650;
+    margin:1rem;
+}
+#navContactos  ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+picture img{width:4rem;}
+
+
+#mapa{
+    color: rgba(255, 255, 255, 0.68);
+    border-radius: 35px 35px 0px 35px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 0.3rem solid black;
+}
+.changeh1{
+    color: #333;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    animation: fade-in 1s ease-in-out;
+
+}
+.espacios{
+    margin:4rem;
+}
+
+.mensaje_bienvenida {
+    display: block; /* Asegura que el span sea un bloque y no se mezcle con otros elementos en línea */
+    font-size: 2rem;
+    color: #333;
+    text-align: center; /* Centra el texto */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    animation: fade-in 1s ease-in-out;
+
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

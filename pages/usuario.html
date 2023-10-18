@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--Link SweetAlert2-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.32/sweetalert2.css" integrity="sha512-eRBMRR/qeSlGYAb6a7UVwNFgXHRXa62u20w4veTi9suM2AkgkJpjcU5J8UVcoRCw0MS096e3n716Qe9Bf14EyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/estilo.css">
+    
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+          <li><a href="../index.html">Nuestra Historia</a></li>
+          <li><a href="./pages/usuario.html">Acceso VIP</a></li>
+          <li><a href="#">Inversores</a></li>
+        </ul>
+    </nav>
+    <h1 id="titulo_usuario"></h1>
+    <p id="parrafo_usuario"></p>
+    </header>
+    <main>
+    <div id = 'div_formularios'>
+    <form id='formulario'action="">
+
+        <label for="nombre"> Ingrese su nombre</label>
+        <input class = 'input_usuario' type="text" id="nombre" >
+        <span class = 'mensaje_input'></span>
+
+        <label for="apellido"> Ingrese su apellido</label>
+        <input class = 'input_usuario' type="text" id="apellido" >
+        <span class = 'mensaje_input'></span>
+
+        <label for="usuario"> Ingrese su Usuario</label>
+        <input class = 'input_usuario' type="text" id="usuario" >
+        <span class = 'mensaje_input'></span>
+
+        <button id="enviar_datos" type="submit"> Enviar Datos</button>
+    </form>
+    <div>
+    <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448890.77608306386!2d-81.6723187271009!3d28.48077569811874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e773d8fecdbc77%3A0xac3b2063ca5bf9e!2sOrlando%2C%20FL%2C%20USA!5e0!3m2!1sen!2sar!4v1697308374064!5m2!1sen!2sar" width="500" height="300"referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+    <h3>Te dejamos nuestas Redes Sociales</h3>
+    <nav id="navContactos">
+    <ul>
+        <li><a href="#" target="_blank"> <picture><img src="../footer/Instagram.png"  alt="imagen de instagram" ></picture>@elsuperquenoexiste</a></li>
+        <li><a href='#' target="_blank" ><picture> <img src="../footer/Facebook.png" alt="imagen de facebook" >elsuperquenoexiste</picture></a></li>
+      </ul>
+      <p>Si deseas contactarnos, envía un correo electrónico a <a href="mailto:andaasaber@gmail.com">elsuperquenoexiste@gmail.com</a></picture></p>
+      
+    </div>
+    </nav>
+    </div>
+    </div>
+    </main>
+  
+    <!-- Script de Seewt Alert-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.7.32/sweetalert2.min.js" integrity="sha512-3PL7jW3xI1EjF2Hfqwv5u6nKG/BnUbWytnJDhsY/q5CbIB5XzoHNhJvgmFeVD7xgC9DbKDm+gPP9uDAAfLAZUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script src="../javaScript/usuario.js"></script>
+
+</body>
+</html>
