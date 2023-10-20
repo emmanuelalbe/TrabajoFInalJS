@@ -70,3 +70,7 @@ btonFormulario.addEventListener('click',(e)=>{
           })    }
 
 });
+
+
+
+ 

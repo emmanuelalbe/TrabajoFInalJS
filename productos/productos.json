@@ -1,1 +1,46 @@
-[]
+[
+{
+    "nombre" : "CocaCola",
+    "precio" : 500,
+    "marca": "CompanyCoca",
+    "imagen": "../gaseosas/cocacola.jpg",
+    "cantidad": 1
+    
+},
+{
+    "nombre" : "Fanta",
+    "precio" : 290,
+    "marca": "CompanyCoca",
+    "imagen": "../gaseosas/fanta.jpg",
+    "cantidad": 1
+
+
+},
+{
+    "nombre" : "Sprite",
+    "precio" : 350,
+    "marca": "CompanyCoca",
+    "imagen": "../gaseosas/sprite.jpg",
+    "cantidad": 1
+
+
+},
+{
+    "nombre" : "soda",
+    "precio" : 300,
+    "marca": "CompanyCoca",
+    "imagen": "../gaseosas/soda.jpg",
+    "cantidad": 1
+
+
+},
+{
+    "nombre" : "vino",
+    "precio" : 550,
+    "marca": "CompanyCoca",
+    "imagen": "../gaseosas/vino.jpg",
+    "cantidad": 1
+
+
+}
+]

@@ -19,6 +19,56 @@ header nav{
 
 }
 
+main #contenedor_productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+main #contenedor_productos .tarjeta_producto {
+    border: 0.1rem solid #333;
+    padding: auto;
+    margin: 2rem;
+    border-radius: 1rem;
+}
+
+.nombre_producto{
+    text-align: center;
+    margin:1rem 2rem;
+    font-size: 2rem;
+}
+
+.imagen_tarjeta{
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.imagen_tarjeta img{
+    width:25rem;
+    margin:1rem;
+    border-radius: 1rem;
+}
+
+.precio_producto{
+    text-align: left;
+    font-size:1.5rem;
+    margin: 1rem;
+}
+.contenedor_botones{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.boton{
+    background-color: #01404d38;
+    align-items: center;
+    margin: 2rem;
+    padding:0.5rem 2rem 0.5rem;
+    border-radius: 1rem;
+}
+
+
 header nav ul {
     height: 100%;
     list-style: none;
@@ -44,6 +94,15 @@ header nav ul li a {
     }
 }
 
+main section picture {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#imagen_carrito{
+width: 40rem;
+}
 
 form {
     color: rgba(255, 255, 255, 0.68);
