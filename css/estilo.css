@@ -183,12 +183,12 @@ picture img{width:4rem;}
 }
 
 .mensaje_bienvenida {
-    display: block; /* Asegura que el span sea un bloque y no se mezcle con otros elementos en línea */
+    display: block;
     font-size: 2rem;
     color: #333;
-    text-align: center; /* Centra el texto */
-    padding: 10px; /* Espaciado interno */
-    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; 
+    padding: 10px; 
+    border-radius: 10px;
     animation: fade-in 1s ease-in-out;
 
   }
@@ -204,3 +204,62 @@ picture img{width:4rem;}
     }
   }
   
+  .tabla_carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla_carrito th, .tabla_carrito td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .tabla_carrito th {
+    background-color: #f2f2f2;
+  }
+  
+  .tabla_carrito tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla_carrito tr:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .tabla_carrito td:first-child, .tabla_carrito th:first-child {
+    text-align: left;
+  }
+  
+  .contenedor_tabla {
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contenedor_tabla p {
+    text-align: center;
+  }
+  
+footer {
+    background-color: #f8f8f8;
+    padding: 20px; 
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+nav ul li img {
+    width: 40px;
+    height: auto; 
+}
